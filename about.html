@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About (Broken)</title>
+    <title>About (FIXED)</title>
 
     <!-- INTENTIONALLY BROKEN: wrong stylesheet path and filename -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css"/> <!-- FIXED -->
   </head>
   <body>
     <header class="site-header">
@@ -15,9 +15,9 @@
 
         <nav class="site-nav" aria-label="Primary">
           <!-- INTENTIONALLY BROKEN: filenames/paths are not correct -->
-          <a href="index.html">Home</a>
-          <a href="about.html" aria-current="page">About</a>
-          <a href="pages/contact.html">Contact</a>
+          <a href="./index.html">Home</a> <!-- CHANGED -->
+          <a href="./about.html" aria-current="page">About</a> <!-- CHANGED -->
+          <a href="./pages/contact.html">Contact</a> <!-- CHANGED -->
         </nav>
       </div>
     </header>
@@ -40,9 +40,10 @@
         </ul>
 
         <!-- INTENTIONALLY BROKEN: wrong image path and filename -->
+         <!-- CHANGED -->
         <img
           class="profile-image"
-          src="./img/profile.png"
+          src="./assets/img/profile.svg"
           alt="A simple profile icon"
           width="160"
           height="160"

@@ -51,11 +51,10 @@ body {
   margin: 0;
   font-size: 20px;
 }
-
+/* CHANGE TO FLEX LAYOUT*/
 .site-nav {
   display: flex;
-  gap: 12px;
-  margin-top: 10px;
+  gap: 20px;
 }
 
 .site-nav a {
@@ -122,11 +121,11 @@ body {
 .hero {
   overflow: hidden;
 }
-
+/* CHANGED TO FLEX LAYOUT */
 .hero-grid {
-  display: grid;
-  gap: 16px;
-  align-items: start;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 }
 
 @media (min-width: 800px) {
